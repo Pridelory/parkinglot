@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rt.modules.medical.mapper.LotDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.rt.modules.parkinglot.entity.LotDetail">
+        <id column="id" property="id" />
+        <result column="parkinglot_id" property="parkinglotId" />
+        <result column="is_reserved" property="isReserved" />
+        <result column="is_entered" property="isEntered" />
+        <result column="parking_code" property="parkingCode" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
